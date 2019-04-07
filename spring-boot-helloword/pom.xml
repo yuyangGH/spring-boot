@@ -124,22 +124,22 @@
 		</profile>
 	</profiles>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+<!-- 	<dependencyManagement> -->
+<!-- 		<dependencies> -->
+<!-- 			<dependency> -->
+<!-- 				<groupId>org.springframework.cloud</groupId> -->
+<!-- 				<artifactId>spring-cloud-dependencies</artifactId> -->
+<!-- 				<version>${spring-cloud.version}</version> -->
+<!-- 				<type>pom</type> -->
+<!-- 				<scope>import</scope> -->
+<!-- 			</dependency> -->
+<!-- 		</dependencies> -->
+<!-- 	</dependencyManagement> -->
 
-	<distributionManagement>
-		<repository>
-			<id>releases</id>
-			<url>http://192.168.10.6:8081/nexus/content/repositories/thirdparty/</url>
-		</repository>
-	</distributionManagement>
+<!-- 	<distributionManagement> -->
+<!-- 		<repository> -->
+<!-- 			<id>releases</id> -->
+<!-- 			<url>http://192.168.10.6:8081/nexus/content/repositories/thirdparty/</url> -->
+<!-- 		</repository> -->
+<!-- 	</distributionManagement> -->
 </project>
